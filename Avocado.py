@@ -46,7 +46,7 @@ top_regions=data.value_counts('region').head(5)
 #st.pyplot(fig)
 
 #Subheader
-sns.set_style('darkgrid')
+#sns.set_style('darkgrid')
 fig1, ax = plt.subplots()
 #change the fig size
 fig1.set_size_inches(10,5)
