@@ -36,14 +36,14 @@ st.dataframe(data.head(rows))
 top_regions=data.value_counts('region').head(5)
 
 #plot top 5 regions
-fig, ax = plt.subplots()
-ax = sns.barplot(x=top_regions.index, y=top_regions.values)
-ax.set_title('Top 5 Regions')
-ax.set_xlabel('Region')
+#fig, ax = plt.subplots()
+#ax = sns.barplot(x=top_regions.index, y=top_regions.values)
+#ax.set_title('Top 5 Regions')
+#ax.set_xlabel('Region')
 # rotate x-axis labels
-plt.setp(ax.get_xticklabels(), rotation=45)
-ax.set_ylabel('Count')
-st.pyplot(fig)
+#plt.setp(ax.get_xticklabels(), rotation=45)
+#ax.set_ylabel('Count')
+#st.pyplot(fig)
 
 #Subheader
 sns.set_style('darkgrid')
