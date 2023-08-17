@@ -2,7 +2,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 #import seaborn as sns
 
 #Title
@@ -47,12 +47,12 @@ top_regions=data.value_counts('region').head(5)
 
 #Subheader
 #sns.set_style('darkgrid')
-fig1, ax = plt.subplots()
+#fig1, ax = plt.subplots()
 #change the fig size
-fig1.set_size_inches(10,5)
-ax = sns.histplot(data['Total Volume'], kde=True)
-ax.set_title('Total Volume Distribution')
-st.pyplot(fig1)
+#fig1.set_size_inches(10,5)
+#ax = sns.histplot(data['Total Volume'], kde=True)
+#ax.set_title('Total Volume Distribution')
+#st.pyplot(fig1)
 
 #Machine Learning part
 st.header('Machine Learning')
