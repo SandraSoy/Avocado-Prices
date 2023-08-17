@@ -4,3 +4,4 @@ pandas
 matplotib
 seaborn
 time 
+scikit-learn
